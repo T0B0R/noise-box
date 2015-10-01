@@ -1,11 +1,8 @@
 // noise-box
-
 // One-in-one-out project for 60-223
 
 //set the MIDI commands
-
 int noteON[] = {144, 145, 146, 147, 148, 149}; //144 = 10010000 in binary, note on command
-
 int noteOFF[] = {128, 129, 130, 131, 132, 133}; //128 = 10000000 in binary, note off command
 
 //choose 6 notes, and corresponding velocities
